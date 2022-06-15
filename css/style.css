@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #23232e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.container img {
+    width: 7%;
+}
+h2 {
+
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.container p {
+
+}
+.circle {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px 8px;
+}
+
+.whatido {
+    text-align: center;
+    padding: 30px 25%;
+    margin-bottom: 20px;
+    overflow: hidden;
+ 
+}
+.row {
+    width: 100%;
+    text-align: left;
+}
+.col {
+    width: 31.33%;
+    float: left;
+    margin: 1%;
+ 
+}
+.mywork {
+    text-align: center;
+    background-color: #23232e;
+    color: white;
+    padding-top: 10px;
+ 
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.mywork a {
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+    padding: 2px;
+    padding-bottom: 20px;
+   margin-bottom: 20px;
+}
+.mywork a:nth-child(1){
+    border-bottom: 5px solid red;
+}
+.mywork-row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #23232e;
+    padding:50px 150px;
+}
+.mywork-col {
+    padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+
+}
+.mywork-col img {
+    width: 60%;
+}
+.mywork-col p {
+    font-size: 12px;
+}
+.mywork-col::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn {
+    padding: 12px 30px;
+    background-color: #7b77c9;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
