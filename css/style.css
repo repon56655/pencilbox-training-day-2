@@ -66,17 +66,19 @@ h2 {
 .mywork-row {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #23232e;
-    padding:50px 150px;
+    padding: 10px 24%;
+
+
 }
 .mywork-col {
     padding: 20px;
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-gap: 0px;
+  column-gap: 0px;
 
 }
 .mywork-col img {
-    width: 60%;
+    width: 100%;
 }
 .mywork-col p {
     font-size: 12px;
@@ -92,5 +94,34 @@ h2 {
     color: white;
     margin-bottom: 50px;
     border-radius: 5px;
+    border: transparent;
 }
+.photography {
+    background-color: white;
+    text-align: center;
+}
+.photography h2, .photography p {
+    padding: 10px 24%;
+}
+.subscribe-area {
+    background-color: #23232e;
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+.subscribe img {
+    padding-bottom: 20px;
+}
+.subscribe p {
+    padding-bottom: 20px;
+}
+.email-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: transparent;
+}
+.footer-area {
+    text-align: center;
+}
+
 
